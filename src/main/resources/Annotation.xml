@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--bean is created for AutoWiring the object-->
+    <bean class="com.springCore.auto.wire.Address" name="address">
+        <property name="city" value="New Delhi"/>
+        <property name="street" value="Near PreetVihar Metro"/>
+    </bean>
+    <bean class="com.springCore.auto.wire.Address" name="address2">
+        <property name="city" value="Agra"/>
+        <property name="street" value="Near Sikandra Metro"/>
+    </bean>
+    <!--bean is created for AutoWiring the object using annotation-->
+    <bean class="com.springCore.auto.wire.annotation.Address" id="temp">
+        <property name="city" value="New Delhi"/>
+        <property name="street" value="Near PreetVihar Metro"/>
+    </bean>
+    <bean class="com.springCore.auto.wire.annotation.Employee2" id="mpl"/>
+    <!-- collaborators and configuration for this bean go here -->
+    <!-- more bean definitions go here -->
+</beans>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util
+       http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+    <util:list list-class="java.util.LinkedList" id = "mybestfriend">
+        <value>Anmol</value>
+        <value>Suraj</value>
+        <value>Kshitij</value>
+        <value>Nikhil</value>
+    </util:list>
+    <!-- StandAlone using map-->
+    <util:map map-class="java.util.HashMap" id="fees">
+        <entry key="Java" value="8000"/>
+        <entry key="Python" value="5000"/>
+        <entry key="Spring Boot" value="12000"/>
+    </util:map>
+    <!-- StandAlone using properties-->
+    <util:properties id="dbConfig">
+        <prop key="DB driver">com.mySql.driver</prop>
+        <prop key="host name">mysql.rivigo.com</prop>
+        <prop key="User Name">Anmol Pradhan</prop>
+        <prop key="Pass">abc123@</prop>
+    </util:properties>
+
+    <!--StandAlone List-->
+    <bean class="com.springCore.StandAlone.Person" name="person2">
+        <property name="friends" ref="mybestfriend"/>
+        <property name="feesStructure" ref="fees"/>
+        <property name="Properties" ref="dbConfig"/>
+    </bean>
+
+    <!-- collaborators and configuration for this bean go here -->
+    <!-- more bean definitions go here -->
+</beans>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util
+       http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+    <util:list list-class="java.util.LinkedList" id = "mybestfriend">
+        <value>Anmol</value>
+        <value>Suraj</value>
+        <value>Kshitij</value>
+        <value>Nikhil</value>
+    </util:list>
+    <!--this is first type our beans-->
+    <bean class="com.springCore.Student" name="student1">
+        <property name="studentId">
+            <value>12345</value>
+        </property>
+        <property name="studentName">
+            <value>Anmol Pradhan</value>
+        </property>
+        <property name="studentAddress">
+            <value>Delhi</value>
+        </property>
+    </bean>
+    <!--this is Second type our beans-->
+    <bean class="com.springCore.Student" name="student2">
+        <property name="studentId" value="12341"/>
+        <property name="studentName" value="Rishabh gupta"/>
+        <property name="studentAddress" value="Agra"/>
+    </bean>
+    <!--this is third type our beans-->
+    <bean class="com.springCore.Student" name="student3" p:studentId="1253" p:studentName="Anmol 3" p:studentAddress="GuruGram"/>
+    <bean class="com.springCore.collections.Emp" name="emp1">
+        <property name="name" value="Anmol Shubham"/>
+        <property name="phoneNumbers">
+            <list>
+                <value>9119888228</value>
+                <value>9119888227</value>
+                <value>9119888226</value>
+                <value>9119888225</value>
+            </list>
+        </property>
+        <property name="addresses">
+            <set>
+                <value>Japlinganj</value>
+                <value>New</value>
+                <value>Chowk</value>
+            </set>
+        </property>
+        <property name="courses">
+            <map>
+                <entry key = "java" value="oneMonth"/>
+                <entry key="python3" value="TwoMonth"/>
+                <entry key = "C++" value="ThreeMonth"/>
+            </map>
+        </property>
+    </bean>
+    <!--Bean related to CiConfig-->
+    <bean class="com.springCore.ci.Certi" name="cer" c:name="Spring Boot is a framework of java"/>
+    <!--<bean class="com.springCore.ci.Certi" name="cer">
+        <constructor-arg value="Android is using for app development"/>
+    </bean>-->
+    <bean class="com.springCore.ci.Person" name="person1">
+        <constructor-arg value="Anmol"/>
+        <constructor-arg value="123" type="int"/>
+        <constructor-arg ref="cer"/>
+        <constructor-arg index="0" value="Anmol"/>
+    </bean>
+    <!--bean i.e related to lifeCycle Implementation-->
+    <!--This bean is Using impl using xml file-->
+    <bean class="com.springCore.Example.Example" name="example" init-method="hey" destroy-method="bye">
+        <property name="subject" value="English"/>
+    </bean>
+    <!--This bean is Using impl using implements intializebean & disposablebean class-->
+    <bean class="com.springCore.Example.Samosa" name="s1">
+        <property name="price" value="10"/>
+    </bean>
+    <!--This bean is Using impl using annotations-->
+    <bean class="com.springCore.Example.Pepsi" name="pepsi">
+        <property name="price" value="20"/>
+    </bean>
+    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor" name="p1"/>
+    <!--bean is created for AutoWiring the object-->
+    <bean class="com.springCore.auto.wire.Address" name="address">
+        <property name="city" value="New Delhi"/>
+        <property name="street" value="Near PreetVihar Metro"/>
+    </bean>
+    <bean class="com.springCore.auto.wire.Address" name="address2">
+        <property name="city" value="Agra"/>
+        <property name="street" value="Near Sikandra Metro"/>
+    </bean>
+    <bean class="com.springCore.auto.wire.Employee" name="emp2" autowire="constructor"/>
+    <!--bean is created for AutoWiring the object using annotation-->
+    <bean class="com.springCore.auto.wire.annotation.Address" name="temp">
+        <property name="city" value="New Delhi"/>
+        <property name="street" value="Near PreetVihar Metro"/>
+    </bean>
+    <bean class="com.springCore.auto.wire.annotation.Employee2" name="mpl"/>
+    <!--StandAlone List-->
+    <bean class="com.springCore.StandAlone.Person" name="person2">
+        <property name="friends" ref="mybestfriend"/>
+    </bean>
+
+    <!-- collaborators and configuration for this bean go here -->
+    <!-- more bean definitions go here -->
+</beans>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util
+       http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+
+    <!--Bean related to CiConfig-->
+    <bean class="com.springCore.ci.Certi" name="cer1" c:name="Spring Boot is a framework of java"/>
+    <bean class="com.springCore.ci.Certi" name="cer">
+        <constructor-arg value="Android is using for app development"/>
+    </bean>
+    <bean class="com.springCore.ci.Person" name="person1">
+        <constructor-arg value="Anmol"/>
+        <constructor-arg value="123" type="int"/>
+        <constructor-arg ref="cer"/>
+        <constructor-arg index="0" value="Anmol"/>
+    </bean>
+
+    <!-- collaborators and configuration for this bean go here -->
+    <!-- more bean definitions go here -->
+</beans>

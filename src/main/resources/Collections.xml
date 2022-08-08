@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--this is third type our beans-->
+    <bean class="com.springCore.Student" name="student3" p:studentId="1253" p:studentName="Anmol 3" p:studentAddress="GuruGram"/>
+    <bean class="com.springCore.collections.Emp" name="emp1">
+        <property name="name" value="Anmol Shubham"/>
+        <property name="phoneNumbers">
+            <list>
+                <value>9119888228</value>
+                <value>9119888227</value>
+                <value>9119888226</value>
+                <value>9119888225</value>
+            </list>
+        </property>
+        <property name="addresses">
+            <set>
+                <value>Japlinganj</value>
+                <value>New</value>
+                <value>Chowk</value>
+            </set>
+        </property>
+        <property name="courses">
+            <map>
+                <entry key = "java" value="oneMonth"/>
+                <entry key="python3" value="TwoMonth"/>
+                <entry key = "C++" value="ThreeMonth"/>
+            </map>
+        </property>
+    </bean>
+    <!-- collaborators and configuration for this bean go here -->
+    <!-- more bean definitions go here -->
+</beans>

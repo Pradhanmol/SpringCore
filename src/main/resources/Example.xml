@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util
+       http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+
+    <!--bean i.e related to lifeCycle Implementation-->
+    <!--This bean is Using impl using xml file-->
+    <bean class="com.springCore.Example.Example" name="example" init-method="hey" destroy-method="bye">
+        <property name="subject" value="English"/>
+    </bean>
+    <!--This bean is Using impl using implements intializebean & disposablebean class-->
+    <bean class="com.springCore.Example.Samosa" name="s1">
+        <property name="price" value="10"/>
+    </bean>
+    <!--This bean is Using impl using annotations-->
+    <bean class="com.springCore.Example.Pepsi" name="pepsi">
+        <property name="price" value="20"/>
+    </bean>
+
+    <!-- collaborators and configuration for this bean go here -->
+    <!-- more bean definitions go here -->
+</beans>

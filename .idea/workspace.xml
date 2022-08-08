@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="69605b53-a6df-478a-ae25-7c8591041be8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/Example/ExApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/Example/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/Example/Pepsi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/Example/Samosa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/JavaConfig/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/JavaConfig/JavaConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/JavaConfig/Samosa2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/JavaConfig/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/SpringExpLang/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/SpringExpLang/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/StandAlone/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/StandAlone/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/auto/wire/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/auto/wire/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/auto/wire/WithoutAnnotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/auto/wire/annotation/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/auto/wire/annotation/AnnotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/auto/wire/annotation/Employee2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/ci/Certi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/ci/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/ci/PersonApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/collections/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/collections/EmpApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/stereoTypes/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/stereoTypes/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springCore/stereoTypes/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Alone.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Annotation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Collections.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Configuration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ConstructionInjection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Example.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/SpringExp.Xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/StereoConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/WithOutAn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/springCore/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../.jdks/openjdk-18.0.1.1/lib/src.zip!/java.base/java/lang/ClassCastException.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.20/spring-beans-5.3.20-sources.jar!/org/springframework/beans/factory/BeanDefinitionStoreException.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BAg3TpOBX9RvrrPAJtUtxFjm2b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/rivigo/springCore/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "cc770de838428d5f106ce9c589bfe745"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.springCore.JavaConfig" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/springCore/auto/wire" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/springCore/auto/wire/annotation" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/springCore/ci" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/springCore/collections" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AnnotationTest">
+    <configuration name="AnnotationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springCore.auto.wire.annotation.AnnotationTest" />
+      <module name="springCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springCore.auto.wire.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springCore.collections.EmpApp" />
+      <module name="springCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springCore.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springCore.Example.ExApp" />
+      <module name="springCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springCore.Example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springCore.ci.PersonApp" />
+      <module name="springCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springCore.ci.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WithoutAnnotationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springCore.auto.wire.WithoutAnnotationTest" />
+      <module name="springCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springCore.auto.wire.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AnnotationTest" />
+        <item itemvalue="Application.WithoutAnnotationTest" />
+        <item itemvalue="Application.PersonApp" />
+        <item itemvalue="Application.ExApp" />
+        <item itemvalue="Application.EmpApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69605b53-a6df-478a-ae25-7c8591041be8" name="Changes" comment="" />
+      <created>1656354105952</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656354105952</updated>
+      <workItem from="1656354108750" duration="3071000" />
+      <workItem from="1656389733254" duration="1827000" />
+      <workItem from="1656423292517" duration="1923000" />
+      <workItem from="1656440458803" duration="9528000" />
+      <workItem from="1656991804655" duration="1512000" />
+      <workItem from="1657606969349" duration="1415000" />
+      <workItem from="1657612084253" duration="10252000" />
+      <workItem from="1657692101789" duration="1695000" />
+      <workItem from="1657863174107" duration="25733000" />
+      <workItem from="1658041594225" duration="2489000" />
+      <workItem from="1658132000523" duration="3022000" />
+      <workItem from="1658238248516" duration="630000" />
+      <workItem from="1658239239837" duration="7411000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.BeanDefinitionStoreException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
